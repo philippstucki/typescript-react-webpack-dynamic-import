@@ -16,7 +16,7 @@ Provides an easy way for TypeScript to wrap components loaded using dynamic impo
 
 ## Using getLoadableComponent()
 
-See `src/
+See [src/App.tsx](src/App.tsx)  for the actual example
 
 ## Interesting Articles and Repos to Read
 
