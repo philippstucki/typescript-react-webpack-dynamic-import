@@ -1,4 +1,4 @@
-# React+TypeScript Loadable Component Example
+# React+TypeScript+Webpack Dynamic Import Wrapper Example
 
 Provides an easy way for TypeScript to wrap components loaded using dynamic imports.
 
