@@ -12,7 +12,7 @@ module.exports = merge(config, {
         filename: 'bundle-[hash].js',
         chunkFilename: '[name].bundle-[hash].js'
     },
-    mode: 'development',
+    mode: 'production',
     plugins: [
         new CleanWebpackPlugin('build', { root: targetRoot }),
         new UglifyWebpackPlugin()
@@ -23,6 +23,5 @@ module.exports = merge(config, {
             minSize: 1000,
             name: true
         }
-    },
-    devtool: 'inline-source-map'
+    }
 });
