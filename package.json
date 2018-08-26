@@ -2,7 +2,7 @@
     "name": "typescript-react-webpack-dynamic-import",
     "description": "Provides an easy wrapper around components loaded using dynamic imports.",
     "version": "0.0.1",
-    "main": "src/main.ts",
+    "main": "src/loadableComponent.ts",
     "license": "MIT",
     "author": "Philipp Stucki <ps@stuckistucki.com>",
     "dependencies": {
