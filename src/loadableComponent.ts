@@ -30,7 +30,7 @@ const awaitAll = <M>(fns: (() => Promise<M>)[]) => {
         });
     });
 };
-export let moduleImporters: (() => PromiseWrapper<any>)[] = [];
+let moduleImporters: (() => PromiseWrapper<any>)[] = [];
 export const awaitAllImports = () => awaitAll(moduleImporters);
 
 export const getLoadableComponent = <P, M>(
